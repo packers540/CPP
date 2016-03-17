@@ -1,0 +1,1 @@
+This library allows users to communicate via a serial port on a windows machine with easy function calls
