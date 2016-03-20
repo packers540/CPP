@@ -7,7 +7,7 @@ struct DivideByZero {
     double divisor;
     DivideByZero(double x) : divisor(x) {}
     const char* what () {
-        //Allows me to define custom exceptions while maintaining to convention and data type used in std exceptions
+        //Allows me to define custom exceptions while maintaining the convention and data type used in std exceptions
         //I could also inherit the exception class and overwrite the virtual function what()
         stringstream stm;
         stm << "Can't divide " << divisor << " by 0." << endl;
